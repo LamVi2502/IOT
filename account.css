@@ -1,0 +1,124 @@
+.user-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user-box {
+    width: 500px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.user-profile { 
+    padding: 10px;
+    text-align: center;
+}
+
+.user-avatar {
+    max-width: 100px;
+    border-radius: 50%;
+    padding: 20px 0px;
+}
+
+.user-info {
+    width: 500px;
+    padding: 20px 60px 20px 20px;
+    text-align: left;
+}
+
+.user-hr {
+    margin: 10px 0px 20px 0px;
+}
+
+#btn-edit {
+    display: inline-block;
+    background: green;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 0px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+#btn-doi-mat-khau {
+    display: inline-block;
+    background: green;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn-logout {
+    display: inline-block;
+    background: green;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+#doi-mat-khau {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    animation: bounceIn 0.5s ease-out;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    text-align: center; 
+    display: none;
+}
+  
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+  
+input {
+    margin: 0 auto; 
+    width: 400px;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+  
+  
+#doi-mat-khau {
+    display: flex;
+    justify-content: center;
+}
+
+
+#edit {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    animation: bounceIn 0.5s ease-out;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    text-align: center; 
+    display: none;
+}
+
